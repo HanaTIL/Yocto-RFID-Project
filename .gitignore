@@ -1,0 +1,20 @@
+# Yocto build artifacts (Very large)
+*.wic
+*.wic.bz2
+*.wic.gz
+*.sdimg
+*.rootfs.tar.bz2
+
+# Build directories
+build/tmp/
+build/sstate-cache/
+build/downloads/
+build/cache/
+
+# Local configuration (if you prefer to share only a template)
+# local.conf
+
+# System noise
+.DS_Store
+__pycache__/
+*.pyc
